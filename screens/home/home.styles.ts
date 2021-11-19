@@ -7,11 +7,18 @@ export const Container = styled.div`
   background: ${colors.white01};
 `;
 
-export const CardSection = styled.div`
+export const Content = styled.div`
   width: 100%;
   height: 100%;
   flex: 1;
   padding: 0 20%;
+  padding-top:  200px;
+`;
+
+export const CardSection = styled.div`
+  width: 100%;
+  height: auto;
+
 
   display: grid;
   grid-template-columns: 1fr 1fr;
